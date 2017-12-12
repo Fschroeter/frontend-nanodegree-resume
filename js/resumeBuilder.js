@@ -183,19 +183,19 @@ var projects = {
 			"title": "Mars robot",
 			"datesWorked": "June 2017 - July 2017",
 			"description": "Programmed a RC rover for the Mars mission as part of Udacity's robotics nanadegree program",
-			"images": ["images/marsrover.jpg"],
+			"images": ["images/rover.jpg"],
 		},
         {
-			"title": "Mars robot",
-			"datesWorked": "June 2017 - July 2017",
+			"title": "Serial Manipulator - Pick and Place",
+			"datesWorked": "October 2017 - November 2017",
 			"description": "Programmed a RC rover for the Mars mission as part of Udacity's robotics nanadegree program",
-			"images": ["images/marsrover.jpg"],
+			"images": ["images/manipulator.jpg"],
 		},
         {
-			"title": "Mars robot",
-			"datesWorked": "June 2017 - July 2017",
-			"description": "Programmed a RC rover for the Mars mission as part of Udacity's robotics nanadegree program",
-			"images": ["images/marsrover.jpg"],
+			"title": "Online Portfolio",
+			"datesWorked": "July 2017",
+			"description": "One of the 9 projects at the nanodegree course 'Front End Web Develoment' is the creation of an online portfolio showcasing our project in Github and in an UI",
+			"images": ["images/portfolio.jpg"],
 		}
 	],
     //Display projects json object in resume object
