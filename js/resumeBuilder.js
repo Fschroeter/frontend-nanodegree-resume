@@ -38,12 +38,12 @@ var bio = {
             $("#header").append(HTMLskillsStart);
 		
             bio.skills.forEach( function(skills) {
-				skill = HTMLskills.replace("%data%", skills)
+				skill = HTMLskills.replace("%data%", skills);
                 $("#skills").append(skill);
             });
         
     }
-}
+};
 
 var education = {
 	"schools": [
@@ -93,10 +93,10 @@ var education = {
                      $(".education-entry:last").append(formattedDate);    
                      $(".education-entry:last").append(formattedLocation);
                      $(".education-entry:last").append(formattedMajor);
-                 })
+                 });
        }
                  //online classes
-                 $("#education").append(HTMLonlineClasses)
+                 $("#education").append(HTMLonlineClasses);
                    education.onlineCourses.forEach(function(onlineCourses) {
                       var formattedTitle = HTMLonlineTitle.replace("%data%", onlineCourses.title);
                       var formattedSchool = HTMLonlineSchool.replace("%data%", onlineCourses.school);
@@ -107,9 +107,9 @@ var education = {
                       $(".education-entry:last").append(formattedTitleAndSchool);
                       $(".education-entry:last").append(formattedDate);
                       $(".education-entry:last").append(formattedURL);
-                 })
+                 });
      }  // end of function
-} // end of JSON
+}; // end of JSON
 
 var work = {
 	"jobs": [
@@ -188,10 +188,10 @@ var work = {
             //$(".work-entry:last").append(formattedWorkTitle) -- I combined employer // and title in var formattedEmployerWorkTitle ;
 			$(".work-entry:last").append(formattedWorkLocation);
 			$(".work-entry:last").append(formattedWorkDescription);
-		  })
+		  });
     	}
     }
-}
+};
 
 var projects = {
 	"projects": [
@@ -231,18 +231,18 @@ var projects = {
 			project.images.forEach(function(image) {
 				var formattedProjectImage = HTMLprojectImage.replace("%data%", image);
 				$(".project-entry:last").append(formattedProjectImage);
-			})
-		})
+			});
+		});
 	}
 }
-}
+};
 //Displaying the objects
 bio.display();
 work.display();
 projects.display();
 education.display();
 
-$("#mapDiv").append(googleMap)
+$("#mapDiv").append(googleMap);
 
 
 
